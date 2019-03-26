@@ -1,0 +1,6 @@
+w = bool(int(input()))
+x = bool(int(input()))
+y = bool(int(input()))
+z = bool(int(input()))
+result = ((x or (not w)) and y) and ((not y) or x or (not w)) and (z or w)
+print(result)
